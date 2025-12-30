@@ -1,3 +1,9 @@
 # Data files (too large for GitHub - will be downloaded automatically by torchvision)
 data/
 
+# Local demo video (do not commit)
+demo.mp4
+
+# macOS metadata
+.DS_Store
+

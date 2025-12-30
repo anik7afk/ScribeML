@@ -1,0 +1,21 @@
+{
+  "train_n": 60000,
+  "test_n": 14800,
+  "seed": 42,
+  "C": 3.0,
+  "max_iter": 2500,
+  "hog": {
+    "orientations": 9,
+    "pixels_per_cell": [
+      4,
+      4
+    ],
+    "cells_per_block": [
+      2,
+      2
+    ],
+    "block_norm": "L2-Hys"
+  },
+  "emnist_fix": "rotate(-90) + hflip",
+  "labels": "EMNIST letters are 1..26; shifted to 0..25"
+}
