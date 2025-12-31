@@ -21,7 +21,7 @@ App test (local)
 1. Make sure models exist (train first if needed).
 2. Run:
    streamlit run appv2.py
-3. Open the local URL shown in the terminal (usually http://localhost:8501).
+
 
 Model files (models/)
 - digit_model.pth
@@ -39,4 +39,7 @@ Usage
 
 Notes
 - If a model file is missing, the app shows an error.
-- On Windows, use num_workers=0 if training hangs.
+
+
+Acknowledgements
+- @jonsensa
